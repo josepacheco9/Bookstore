@@ -1,0 +1,4 @@
+create table bookst (book_id int(11) auto_increment primary key, title varchar(30) not null, author varchar(30) not null, publisher varchar(30) not null);
+insert into bookst values (100, 'The Call of the Wild', 'Oscar Wilde', 'Random House'),
+(101, 'The Jungle Book', 'Joey Agustin', 'Phoenix Publishing House'),
+(102, 'Putok sa Bundok', 'Joseph Estrada', 'Estrada Publishing');

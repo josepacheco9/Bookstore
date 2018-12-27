@@ -1,0 +1,30 @@
+table {
+	border: 1;
+}
+
+th {
+	background-color: gray;
+	border-right: thin solid white;
+	border-bottom: thin solid white;
+	font-weight:bold;
+	color:white;
+	padding: 5px;
+}
+
+td {
+	border-right: thin solid gray;
+	border-bottom: thin solid gray;
+	padding: 5px;
+}
+
+p.success {
+	color: green;
+	font-weight: bold;
+}
+
+div.record {
+	background-color:gray;
+	border: thin solid blue;
+	padding: 5px;
+	width: 50%;
+}
